@@ -1,0 +1,235 @@
+/* !Колір основного тексту #757575
+колір заголовка + навігація #212121
+колір героя #FFFFFF
+колір посилання #2196F3 #757575
+колір футера rgba(255, 255, 255, 0.6)
+  колір фону #E5E5E5
+  колір фону команди #F5F4FA
+    колір футер фон #2F303A 
+ */
+:root{
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white-color: #FFFFFF;
+}
+body {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    background-color: var(--primary-white-color);
+}
+.logo {
+    font-family: raleway;
+    font-size: 26px;
+    color: #000000;
+    text-decoration: none;
+}
+.web{
+    color: var(--accent-color);
+    font-family: raleway;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+/* .site-nav a {
+    color: var(--title-text-color);
+    text-decoration: none;
+} */
+
+.nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--title-text-color);
+}
+.curent {
+    color: var(--accent-color);
+}
+.auth-nav {
+    text-decoration: none;
+}
+.site-nav a:hover,
+.site-nav a:focus,
+.auth-nav a:focus,
+.auth-nav a:hover {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-style: medium;
+}
+ .visibility {
+    visibility: hidden;
+ }
+logo:hover {
+}
+logo:focus{
+}
+.auth-nav:hover, 
+.auth-nav {
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+.site-nav,
+.auth-nav {
+    text-decoration: none;
+}
+.page-header {
+    text-decoration: none;
+    border: 1px solid #ECECEC;
+}
+ /* hero  */
+.hero {
+    color: var(--primary-white-color);
+    background-color: #2F303A;
+}
+.hero-title {
+    color: var(--primary-white-color);
+    font-size: 44px;
+    text-transform: uppercase;
+    }
+.button-reserv {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+    font-weight: 700;
+    font-size: 16px;
+    Effect: Drop shadow;
+    border-radius: 4px;
+    border: none;
+    Offset: 0px, 4px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+/* section  */
+.section-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+ }
+ .section-article{
+        line-height: 1.71;
+ }
+.work-title {
+    font-size: 36px;
+    color: var(--title-text-color);
+}
+.what-we-do {
+}
+/* team */
+.section-comand {
+    background-color: #F5F4FA;
+}
+.team-title {
+    font-size: 36px;
+    color: var(--title-text-color);
+}
+.phone-team {
+    background-color: var(--primary-white-color);
+}
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;    
+    color: var(--title-text-color);
+}
+.team-post {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--primary-text-color);
+}
+.footer {
+    background-color: #2F303A;
+}
+.footer-logo {
+    font-family: raleway;
+    font-size: 26px;
+    color:var(--primary-white-color);
+    text-decoration: none;
+    }
+.footer-adress {
+    font-style: normal;
+    text-decoration: none;
+}
+.footer-adress:hover,
+.footer-adress:focus {
+    color: #2196F3;
+}
+.footer-phone {
+    color: rgba(255, 255, 255, 0.6);
+}
+/* портфоліо */
+.portfolio-section{
+text-decoration: none;
+}
+.filter {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    background-color: #F5F4FA;
+    color: var(--title-text-color); 
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.filter:hover,
+.filter:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+.button:hover,
+.button:focus {
+    color: var(--accent-color);
+}
+.project-name {
+    font-style: Bold;
+    font-size: 18px;
+    color: var(--title-text-color);
+    text-decoration: none;
+}
+.project-type {
+    text-decoration: none;
+    font-style: Regular;
+    font-size: 16px;
+    color: var(--primary-text-color);
+}
+/* виправлення  */
+.auth-nav {
+    text-decoration: none;
+    color: var(--title-text-color);
+    font-style: normal;
+    color: var(--primary-white-color);
+}
+.footer-map {
+    font-style: normal;
+    color: var(--primary-white-color);
+}
+.footer-map:hover {
+    color: var(--accent-color);
+}
+.portfolio-header {
+    text-decoration: none;
+    border: 1px solid #ECECEC;
+}
+.portfolio-nav {
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+.portfolio-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+    /* color: var(--title-text-color); */
+}
+.nav-link.curent {
+    color: var(--accent-color);
+}
