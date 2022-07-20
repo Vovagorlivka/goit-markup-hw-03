@@ -13,6 +13,7 @@
     --accent-color: #2196F3;
     --primary-white-color: #FFFFFF;
 }
+
 body {
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
@@ -20,23 +21,28 @@ body {
     color: var(--primary-text-color);
     background-color: var(--primary-white-color);
 }
+
 .logo {
     font-family: raleway;
     font-size: 26px;
     color: #000000;
     text-decoration: none;
 }
+
 .web{
     color: var(--accent-color);
     font-family: raleway;
     text-decoration: none;
 }
+
 a {
     text-decoration: none;
 }
+
 ul {
     list-style: none;
 }
+
 /* .site-nav a {
     color: var(--title-text-color);
     text-decoration: none;
@@ -48,12 +54,15 @@ ul {
     line-height: 1.14;
     color: var(--title-text-color);
 }
+
 .curent {
     color: var(--accent-color);
 }
+
 .auth-nav {
     text-decoration: none;
 }
+
 .site-nav a:hover,
 .site-nav a:focus,
 .auth-nav a:focus,
@@ -62,36 +71,45 @@ ul {
     text-decoration: none;
     font-style: medium;
 }
+
  .visibility {
     visibility: hidden;
  }
+
 logo:hover {
 }
+
 logo:focus{
 }
+
 .auth-nav:hover, 
 .auth-nav {
     color: var(--primary-text-color);
     text-decoration: none;
 }
+
 .site-nav,
 .auth-nav {
     text-decoration: none;
 }
+
 .page-header {
     text-decoration: none;
     border: 1px solid #ECECEC;
 }
+
  /* hero  */
 .hero {
     color: var(--primary-white-color);
     background-color: #2F303A;
 }
+
 .hero-title {
     color: var(--primary-white-color);
     font-size: 44px;
     text-transform: uppercase;
-    }
+}
+
 .button-reserv {
     background-color: var(--accent-color);
     color: var(--primary-white-color);
@@ -103,6 +121,7 @@ logo:focus{
     Offset: 0px, 4px rgba(0, 0, 0, 0.15);
     cursor: pointer;
 }
+
 /* section  */
 .section-title {
     color: var(--title-text-color);
@@ -111,62 +130,77 @@ logo:focus{
     line-height: 1.14;
     text-transform: uppercase;
  }
+
  .section-article{
         line-height: 1.71;
  }
+
 .work-title {
     font-size: 36px;
     color: var(--title-text-color);
 }
+
 .what-we-do {
 }
+
 /* team */
 .section-comand {
     background-color: #F5F4FA;
 }
+
 .team-title {
     font-size: 36px;
     color: var(--title-text-color);
 }
+
 .phone-team {
     background-color: var(--primary-white-color);
 }
+
 .team-name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;    
     color: var(--title-text-color);
 }
+
 .team-post {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     color: var(--primary-text-color);
 }
+
 .footer {
     background-color: #2F303A;
 }
+
 .footer-logo {
     font-family: raleway;
     font-size: 26px;
     color:var(--primary-white-color);
     text-decoration: none;
-    }
+}
+
 .footer-adress {
     font-style: normal;
     text-decoration: none;
 }
+
 .footer-adress:hover,
 .footer-adress:focus {
     color: #2196F3;
 }
+
 .footer-phone {
     color: rgba(255, 255, 255, 0.6);
 }
+
 /* портфоліо */
 .portfolio-section{
 text-decoration: none;
 }
+
 .filter {
     font-family: inherit;
     font-weight: 500;
