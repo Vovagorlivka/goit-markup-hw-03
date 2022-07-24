@@ -228,6 +228,9 @@ ul {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.section-what-we-do {
+  padding-bottom: 94px;
+}
 
 .section-title {
   color: var(--title-text-color);
@@ -268,7 +271,6 @@ ul {
 .team-title {
   display: flex;
   justify-content: center;
-  padding-top: 94px;
   margin-bottom: 50px;
   font-size: 36px;
 
@@ -296,7 +298,6 @@ ul {
 
 .team-post {
   text-align: center;
-  padding-bottom: 30px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
@@ -317,7 +318,6 @@ ul {
 } */
 .footer-logo {
   display: flex;
-  padding-left: 22px;
   margin-bottom: 20px;
   font-family: raleway;
   font-size: 26px;
@@ -328,6 +328,7 @@ ul {
 .footer-adress {
   font-style: normal;
   text-decoration: none;
+  margin-bottom: 9px;
 }
 
 .footer-adress:hover,
@@ -336,8 +337,7 @@ ul {
 }
 
 .footer-phone {
-  margin-top: 9px;
-  padding-left: 22px;
+  line-height: 1.714;
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -382,10 +382,10 @@ ul {
   display: flex;
   flex-wrap: wrap;
   /* margin-left: 24px; */
-  gap: 30px;
+  gap: 25px;
 }
 .portfolio-exampl {
-  padding: 24px 20px;
+  padding: 20px 24px;
   border: 1px solid #eeeeee;
 }
 .project-name {
@@ -394,7 +394,6 @@ ul {
   line-height: 2;
   color: var(--title-text-color);
   text-decoration: none;
-  margin-top: 20px;
   margin-bottom: 4px;
 }
 
@@ -404,7 +403,6 @@ ul {
   font-size: 16px;
   line-height: 1.88;
   color: var(--primary-text-color);
-  margin-bottom: 20px;
 }
 
 /* виправлення  */
@@ -416,7 +414,6 @@ ul {
 }
 
 .footer-map {
-  padding-left: 22px;
   font-style: normal;
   color: var(--primary-white-color);
 }
